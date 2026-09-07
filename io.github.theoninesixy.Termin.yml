@@ -45,12 +45,12 @@ modules:
   - name: termin
     buildsystem: simple
     build-commands:
-      - install -Dm755 app.py /app/bin/termin
+      - install -Dm755 termin.py /app/bin/termin
       - install -Dm644 io.github.theoninesixy.Termin.desktop /app/share/applications/io.github.theoninesixy.Termin.desktop
       - install -Dm644 io.github.theoninesixy.Termin.metainfo.xml /app/share/metainfo/io.github.theoninesixy.Termin.metainfo.xml
       - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/io.github.theoninesixy.Termin.svg
     sources:
       - type: git
         url: https://github.com/TheOninesixY/Termin.git
-        tag: 1.0.2
-        commit: 7de41d1cf8db9bf5164e846ab8efef095116ed4b
+        tag: v1.1.1
+        commit: df980ab8b5f8109651f0487a5c6387be8ce52439
